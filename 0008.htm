@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>範例</title>
+</head>
+
+<body>
+<img src="232824.png" alt="銀狼">
+<img src="235445.png" alt="卡芙卡">
+<img src="235554.png" alt="克拉拉">
+<img src="235845.png" alt="希兒">
+<script>
+	var findImg = document.getElementsByTagName("img");
+	var msg="";
+	for(var i=0; i<findImg.length; i++){
+		msg += "第"+(i+1)+"角色為："+findImg[i].alt+"\n";
+	}
+	alert(msg);
+</script>
+</body>
+</html>
